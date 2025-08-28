@@ -1,0 +1,21 @@
+{
+  "agent_to_evaluate": "MarketIntelAgent",
+  "passing_score_threshold": 94,
+  "evaluation_rubric": [
+    {
+      "criterion": "Data Accuracy & Plausibility",
+      "max_score": 50,
+      "description": "The metrics reported must be accurate and plausible. The agent must correctly query the APIs and report the data without error. The validator can perform spot-checks against the source API."
+    },
+    {
+      "criterion": "Completeness & Attribution",
+      "max_score": 40,
+      "description": "The agent must analyze all content assets provided in the input and correctly attribute performance data to each one. No assets should be missing from the report."
+    },
+    {
+      "criterion": "Structural Integrity",
+      "max_score": 10,
+      "description": "The output must be a valid JSON object and perfectly adhere to the specified schema."
+    }
+  ]
+}

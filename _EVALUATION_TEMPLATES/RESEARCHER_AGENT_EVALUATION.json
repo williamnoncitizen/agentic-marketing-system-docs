@@ -1,0 +1,26 @@
+{
+  "agent_to_evaluate": "ResearcherAgent",
+  "passing_score_threshold": 94,
+  "evaluation_rubric": [
+    {
+      "criterion": "Verifiability & Source-Linking",
+      "max_score": 40,
+      "description": "Every key claim, assessment, or contradiction must be directly traceable to a source URL. The agent must provide evidence, not just make assertions."
+    },
+    {
+      "criterion": "Comprehensive Coverage",
+      "max_score": 25,
+      "description": "The agent must demonstrate that it has performed a thorough scan of the competitor's primary digital assets, not just a shallow scrape of the homepage."
+    },
+    {
+      "criterion": "Strict Objectivity",
+      "max_score": 20,
+      "description": "The agent must act as a pure evidence-gatherer. Its output must contain extracted facts, not synthesized opinions or interpretive language."
+    },
+    {
+      "criterion": "Data Granularity",
+      "max_score": 15,
+      "description": "The data extracted must be specific and detailed, not vague or generic."
+    }
+  ]
+}

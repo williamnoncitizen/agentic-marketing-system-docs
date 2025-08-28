@@ -1,0 +1,26 @@
+{
+  "agent_to_evaluate": "CopywriterAgent",
+  "passing_score_threshold": 94,
+  "evaluation_rubric": [
+    {
+      "criterion": "Brand Bible Adherence",
+      "max_score": 40,
+      "description": "The generated content must be in perfect alignment with the Brand Foundation Document, correctly applying the specified framework, voice, and linguistic rules."
+    },
+    {
+      "criterion": "Creative Brief Fulfillment",
+      "max_score": 25,
+      "description": "The content must successfully fulfill all aspects of the creative_brief provided as input, including asset_type, target_pillar, and call_to_action."
+    },
+    {
+      "criterion": "Persuasive Quality & Engagement",
+      "max_score": 25,
+      "description": "The content must be engaging and persuasive, featuring a strong hook, a clear narrative arc, and a compelling call-to-action."
+    },
+    {
+      "criterion": "Structural Integrity & Metadata Accuracy",
+      "max_score": 10,
+      "description": "The output must be valid JSON, adhere to the schema, and the metadata section must be an accurate reflection of the generated_content."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "agent_to_evaluate": "ArchitectAgent",
+  "passing_score_threshold": 94,
+  "evaluation_rubric": [
+    {
+      "criterion": "Framework Completeness",
+      "max_score": 40,
+      "description": "The agent must populate all sections of the brand architecture. There should be multiple, well-defined core_voice_attributes and content_pillars."
+    },
+    {
+      "criterion": "Clarity & Executability",
+      "max_score": 30,
+      "description": "The guidelines must be clear, unambiguous, and directly usable by the Copywriter Agent. Definitions should be precise and 'Dos and Don'ts' must be explicit."
+    },
+    {
+      "criterion": "Strategic Alignment",
+      "max_score": 20,
+      "description": "The brand architecture must be a direct and faithful translation of the strategy defined in the Layer 3 input document. Content pillars must align with the messaging pillars from the strategy."
+    },
+    {
+      "criterion": "Structural Integrity",
+      "max_score": 10,
+      "description": "The output must be a valid JSON object and perfectly adhere to the specified schema."
+    }
+  ]
+}

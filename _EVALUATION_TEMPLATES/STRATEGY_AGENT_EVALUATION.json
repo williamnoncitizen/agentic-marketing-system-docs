@@ -1,0 +1,26 @@
+{
+  "agent_to_evaluate": "StrategyAgent",
+  "passing_score_threshold": 94,
+  "evaluation_rubric": [
+    {
+      "criterion": "Strategic Cohesion",
+      "max_score": 40,
+      "description": "The agent's output must present a single, internally consistent strategic argument. The vulnerability_stack must logically lead to the paradigm_shift_opportunity, and the key_messaging_pillars must be a direct response."
+    },
+    {
+      "criterion": "Actionability & Specificity",
+      "max_score": 30,
+      "description": "The strategic output must be concrete and directly usable by downstream agents. The 'enemy', 'power_language', and 'competitor_reframes' must be sharp, memorable, and specific."
+    },
+    {
+      "criterion": "Evidence-Based Reasoning",
+      "max_score": 20,
+      "description": "The agent's conclusions must be a plausible and logical interpretation of the evidence from Layer 1 and 2 documents. Strategic leaps must be reasonably supported by the input research."
+    },
+    {
+      "criterion": "Structural Integrity",
+      "max_score": 10,
+      "description": "The output must be a valid JSON object and perfectly adhere to the specified schema."
+    }
+  ]
+}
