@@ -16,8 +16,8 @@
 
 ## Workflow: `SynthesizeStrategy`
 
-*   **Purpose:** To analyze the complete evidence base from the `Researcher Agent` (Layers 2A, 2B, and 2C) to identify market gaps, competitive weaknesses, and a powerful, defensible positioning for the client.
-*   **Function Signature:** `SynthesizeStrategy(client_name: str, client_ground_truth_path: str, competitive_intel_paths: list) -> str`
+*   **Purpose:** To analyze the complete evidence base from the `Researcher Agent` (Layers 1, 2A, 2B, and 2C) to identify market gaps, competitive weaknesses, and a powerful, defensible positioning for the client.
+*   **Function Signature:** `SynthesizeStrategy(client_ground_truth_path: str, competitive_intel_paths: list) -> str`
 *   **KB Destination:** `kb/layer3_strategic_frameworks/`
 *   **Tools:** `LLM (for analysis)`
 *   **Inputs:**
@@ -122,4 +122,4 @@
 
 ## Validator Agent Sub-Workflow
 
-The quality and structural integrity of the `Strategy Agent`'s output is evaluated by the `Validator Agent`. The specific criteria and self-correction process are defined in the master **[Validator Subsystem Architecture document](./07_VALIDATOR_SUBSYSTEM.md)**. The rubric used for this agent is **[STRATEGY_AGENT_EVALUATION.json](./_EVALUATION_TEMPLATES/STRATEGY_AGENT_EVALUATION.json)**.
+The quality and structural integrity of the `Strategy Agent`'s output is evaluated by the `Validator Agent`. The specific criteria and self-correction process are defined in the master **[Validator Subsystem Architecture document](./VALIDATOR_SUBSYSTEM.md)**. The rubric used for this agent is **[STRATEGY_AGENT_EVALUATION.json](./_EVALUATION_TEMPLATES/STRATEGY_AGENT_EVALUATION.json)**.

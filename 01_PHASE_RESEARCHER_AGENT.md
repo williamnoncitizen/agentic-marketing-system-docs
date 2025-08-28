@@ -249,4 +249,4 @@
 
 ## Validator Agent Sub-Workflow
 
-The quality and structural integrity of the `Researcher Agent`'s outputs are evaluated by the `Validator Agent`. The specific criteria and self-correction process are defined in the master **[Validator Subsystem Architecture document](./07_VALIDATOR_SUBSYSTEM.md)**. The rubric used for this agent is **[RESEARCHER_AGENT_EVALUATION.json](./_EVALUATION_TEMPLATES/RESEARCHER_AGENT_EVALUATION.json)**.
+The quality and structural integrity of the `Researcher Agent`'s outputs are evaluated by the `Validator Agent`. The specific criteria and self-correction process are defined in the master **[Validator Subsystem Architecture document](./VALIDATOR_SUBSYSTEM.md)**. The rubric used for this agent is **[RESEARCHER_AGENT_EVALUATION.json](./_EVALUATION_TEMPLATES/RESEARCHER_AGENT_EVALUATION.json)**.
